@@ -1,0 +1,63 @@
+2020-11-20 18:16:28,411 [main] INFO  c.m.p.PdExperimentApplication 55 - Starting PdExperimentApplication on budiMacBook-Pro.local with PID 58287 (/Users/budi/Downloads/monetware/pd-experiment-api/target/classes started by budi in /Users/budi/Downloads/monetware/pd-experiment-api)
+2020-11-20 18:16:28,413 [main] INFO  c.m.p.PdExperimentApplication 655 - The following profiles are active: dev
+2020-11-20 18:16:29,558 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 225 - Skipping MapperFactoryBean with name 'pdTaskDao' and 'com.monetware.pdexperiment.business.dao.PdTaskDao' mapperInterface. Bean already defined with the same name!
+2020-11-20 18:16:29,558 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 225 - Skipping MapperFactoryBean with name 'pdUserDao' and 'com.monetware.pdexperiment.business.dao.PdUserDao' mapperInterface. Bean already defined with the same name!
+2020-11-20 18:16:29,558 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 225 - Skipping MapperFactoryBean with name 'pdUserTaskDao' and 'com.monetware.pdexperiment.business.dao.PdUserTaskDao' mapperInterface. Bean already defined with the same name!
+2020-11-20 18:16:29,559 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 225 - Skipping MapperFactoryBean with name 'pdUserTaskFileDao' and 'com.monetware.pdexperiment.business.dao.PdUserTaskFileDao' mapperInterface. Bean already defined with the same name!
+2020-11-20 18:16:29,559 [main] WARN  t.m.s.mapper.ClassPathMapperScanner 142 - No MyBatis mapper was found in '[com.monetware.pdexperiment]' package. Please check your configuration.
+2020-11-20 18:16:29,572 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'pdTaskDao' and 'com.monetware.pdexperiment.business.dao.PdTaskDao' mapperInterface. Bean already defined with the same name!
+2020-11-20 18:16:29,572 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'pdUserDao' and 'com.monetware.pdexperiment.business.dao.PdUserDao' mapperInterface. Bean already defined with the same name!
+2020-11-20 18:16:29,572 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'pdUserTaskDao' and 'com.monetware.pdexperiment.business.dao.PdUserTaskDao' mapperInterface. Bean already defined with the same name!
+2020-11-20 18:16:29,573 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 239 - Skipping MapperFactoryBean with name 'pdUserTaskFileDao' and 'com.monetware.pdexperiment.business.dao.PdUserTaskFileDao' mapperInterface. Bean already defined with the same name!
+2020-11-20 18:16:29,573 [main] WARN  o.m.s.mapper.ClassPathMapperScanner 166 - No MyBatis mapper was found in '[com.monetware.pdexperiment]' package. Please check your configuration.
+2020-11-20 18:16:29,619 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 249 - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-11-20 18:16:29,622 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 127 - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2020-11-20 18:16:29,663 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate 187 - Finished Spring Data repository scanning in 26ms. Found 0 Redis repository interfaces.
+2020-11-20 18:16:30,104 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0' of type [org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 18:16:30,383 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@352c44a8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 18:16:30,392 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker 335 - Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-11-20 18:16:30,698 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer 108 - Tomcat initialized with port(s): 8077 (http)
+2020-11-20 18:16:30,708 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Initializing ProtocolHandler ["http-nio-8077"]
+2020-11-20 18:16:30,708 [main] INFO  o.a.catalina.core.StandardService 173 - Starting service [Tomcat]
+2020-11-20 18:16:30,709 [main] INFO  o.a.catalina.core.StandardEngine 173 - Starting Servlet engine: [Apache Tomcat/9.0.38]
+2020-11-20 18:16:30,795 [main] INFO  o.a.c.c.C.[.[localhost].[/pdapi] 173 - Initializing Spring embedded WebApplicationContext
+2020-11-20 18:16:30,795 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext 285 - Root WebApplicationContext: initialization completed in 2349 ms
+2020-11-20 18:16:30,936 [main] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure 56 - Init DruidDataSource
+2020-11-20 18:16:31,244 [main] INFO  c.alibaba.druid.pool.DruidDataSource 930 - {dataSource-1} inited
+2020-11-20 18:16:32,354 [main] WARN  o.s.s.o.p.t.s.JwtAccessTokenConverter 294 - Unable to create an RSA verifier from verifierKey (ignoreable if using MAC)
+2020-11-20 18:16:32,373 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping 69 - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2020-11-20 18:16:32,441 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 181 - Initializing ExecutorService 'applicationTaskExecutor'
+2020-11-20 18:16:32,566 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.util.MsUtil CLASS_CACHE cache.
+2020-11-20 18:16:32,567 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.genid.GenIdUtil CACHE cache.
+2020-11-20 18:16:32,568 [main] INFO  t.m.m.a.MapperCacheDisabler 60 - Clear tk.mybatis.mapper.version.VersionUtil CACHE cache.
+2020-11-20 18:16:32,568 [main] INFO  t.m.m.a.MapperCacheDisabler 83 - Clear EntityHelper entityTableMap cache.
+2020-11-20 18:16:32,795 [main] INFO  o.s.b.a.s.s.UserDetailsServiceAutoConfiguration 86 - 
+
+Using generated security password: 4a33fcba-7f2f-4d0a-823b-e3b0ae9aedb7
+
+2020-11-20 18:16:32,930 [main] INFO  o.s.s.web.DefaultSecurityFilterChain 43 - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@d85b399, org.springframework.security.web.context.SecurityContextPersistenceFilter@a95cb11, org.springframework.security.web.header.HeaderWriterFilter@13234ac9, org.springframework.web.filter.CorsFilter@674aa626, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@10b87ff6, com.monetware.pdexperiment.system.filter.TokenFilter@4dd1d2bb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66d2885c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@50bf795f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47198524, org.springframework.security.web.session.SessionManagementFilter@39374689, org.springframework.security.web.access.ExceptionTranslationFilter@42ff9a77, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@77a2688d]
+2020-11-20 18:16:32,974 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Starting ProtocolHandler ["http-nio-8077"]
+2020-11-20 18:16:32,992 [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext 559 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8077 is already in use
+2020-11-20 18:16:32,993 [main] INFO  o.s.s.c.ThreadPoolTaskExecutor 218 - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-11-20 18:16:33,010 [main] INFO  c.alibaba.druid.pool.DruidDataSource 1825 - {dataSource-1} closed
+2020-11-20 18:16:33,013 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Pausing ProtocolHandler ["http-nio-8077"]
+2020-11-20 18:16:33,013 [main] INFO  o.a.catalina.core.StandardService 173 - Stopping service [Tomcat]
+2020-11-20 18:16:33,035 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Stopping ProtocolHandler ["http-nio-8077"]
+2020-11-20 18:16:33,036 [main] INFO  o.a.coyote.http11.Http11NioProtocol 173 - Destroying ProtocolHandler ["http-nio-8077"]
+2020-11-20 18:16:33,044 [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener 136 - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-11-20 18:16:33,050 [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter 40 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8077 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8077 or configure this application to listen on another port.
+
